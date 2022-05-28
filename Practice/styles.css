@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    padding-top: 50px;
+}
+
+
+
+body {
+    border: 3px solid rgb(44, 165, 159);
+    border-radius: 10px;
+    padding: 40px;
+    width: 40%;
+    height: 400px;
+    margin: 0 auto;
+    background:rgb(210, 245, 253);
+}
+#clock {
+    height: 120px;
+    font-size: 40px;
+    font-family: arial;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(99, 203, 230);
+}
+
+h2 {
+    text-align: center;
+}
+
+#alarm-container {
+    text-align: center;
+    font-family: Verdana;
+    font-size: 15px;
+    padding: 0.7em;
+    color: rgb(99, 203, 230);
+}
+
+label {
+    display: inline-block;
+}
+
+.timeofday {
+    background-color: #eee;
+}
+
+.bigger {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#sounds {
+    text-align: center;
+    padding-top: 20px;
+}
+
+button {
+    border: none;
+    border-radius: 5px;
+    width: 110px;
+    height: 35px;
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+#setButton {
+    float: left;
+    background-color: rgb(127, 221, 245);
+    color: white;
+}
+
+#clearButton {
+    float: right;
+    background-color: rgb(255, 255, 255);
+    color: rgb(127, 221, 245);
+}
+
+select {
+    border: none;
+    width: 60px;
+    height: 25px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 17px;
+    font-weight: bolder;
+    color: rgb(127, 221, 245);
+}
